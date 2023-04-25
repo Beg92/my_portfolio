@@ -135,7 +135,17 @@ article {
 #skills span{
   font-weight: 400;
 }
-
+#skills{
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.skills-header{
+  margin-bottom: 20px;
+}
+#skills h4 {
+  margin: 40px 0 40px 0;
+  font-weight: bold;
+}
 #work h3{
   width: 100%;
 }
@@ -146,6 +156,10 @@ article {
 #skills{
   background-color:#DC90D2;
 }
+#work, #skills{
+  width: 100%;
+}
+
  #about{
   background-color: #FFE8D6;
  }
@@ -158,8 +172,6 @@ h6 {
   line-height: 1.5;
   width: 100%;
 }
-
-
 
 figure {
   margin: 20px 0 40px 0;
@@ -180,9 +192,11 @@ li {
 span {
   font-weight: bold;
 }
-
+div{
+  display: block;
+}
 .project-link {
-background-color: #453E4F;
+background-color: #e4c6e6;
   padding: 0.75rem 3.75rem;
   border-radius: 30px;
   border: 1px solid;
@@ -210,8 +224,7 @@ a {
  margin-bottom: 20px;
 }
 .content-wrapper {
-  width: 100%;
-  
+  width: 85%;
   
 }
 .home-portfolio-piece{
@@ -250,13 +263,18 @@ a {
 
     .language-wrapper p,
     .tool-wrapper p {
-      background-color: #270717;
+background-color: #e4c6e6;
       padding: 15px 0;
       margin: 20px 0;
     }
         #profile-picture {
           width: 90%;
-        }
+              border-top-left-radius: 50% 50%;
+              border-top-right-radius: 50% 50%;
+              border-bottom-right-radius: 50% 50%;
+              border-bottom-left-radius: 50% 50%;
+            }
+      
         img {
            width: 100%;
           }
@@ -294,8 +312,23 @@ footer .follow-section {
   flex-flow: row wrap;
   justify-content: center;
 }
+footer{
+  padding: 80px 0;
+}
+footer .contact-wrapper {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+ 
+}
 footer .contact-info {
   width: 60%;
+}
+.contact-info{
+  margin: 0 0 60px 0;
+}
+.contact-title{
+  margin : 0 0 40px 0;
 }
 footer .social-icons {
   display: flex;
@@ -336,9 +369,11 @@ footer i:hover{
   background:purple;
 }
 
+
+
 /*phone styles*/
 
- @media only screen and (min-width: 768px) 
+ @media only screen and (min-width: 768px)
   {
     header {
   padding-top: 60px;
@@ -481,4 +516,3 @@ footer .social-icons li i {
   }
   
 
-@media all and (min-width:1200px) {}
