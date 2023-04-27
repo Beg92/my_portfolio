@@ -2,11 +2,16 @@
             font-size: 1em;
               font-family: 'Open Sans', sans-serif;
               color: #453E4F;
-              background-color: #DC90D2;
+              background-color:#EFAC83;
+              margin:0;
+              padding: 10px;
  }
 html {
   line-height: 1.15;
-  -webkit-text-size-adjust: 100%;
+  
+}
+body{
+  margin: 0;
 }
 
 header{
@@ -15,9 +20,7 @@ header{
       text-align: center;
       flex-flow: row wrap;
 }
-main {
-  display: block;
-}
+
 
 #work{
   background-color: #FFE8D6;
@@ -32,7 +35,9 @@ nav ul {
   justify-content: space-between;
 }
 nav  a:hover{ 
-  background:purple;
+  background:rgb(243, 241, 243);
+  padding: 10px 0 10px 0;
+  border-radius: 10px;
   
 }
 
@@ -116,21 +121,18 @@ h4 {
   margin: 0 0 40px 0;
 }
 
-article {
-  display:block;
-  
-}
 #portfolio{
   padding-top: 1em;
 }
 #portfolio-header{
   padding-top: 1em;
 }
-#work {
-  padding-top: 60px;
+
+#work, #skills{
+  width: 100%;
 }
 #skills{
-  margin: 10px;
+  margin: 5px;
 }
 #skills span{
   font-weight: 400;
@@ -154,11 +156,9 @@ article {
   align-self: center;
 }
 #skills{
-  background-color:#DC90D2;
+  background-color:#EFAC83;
 }
-#work, #skills{
-  width: 100%;
-}
+
 
  #about{
   background-color: #FFE8D6;
@@ -177,7 +177,9 @@ figure {
   margin: 20px 0 40px 0;
 }
 
-
+#about{
+  width: 100%;
+}
 
 p {
   margin: 0;
@@ -196,7 +198,7 @@ div{
   display: block;
 }
 .project-link {
-background-color: #e4c6e6;
+background-color: #EFAC83;
   padding: 0.75rem 3.75rem;
   border-radius: 30px;
   border: 1px solid;
@@ -211,7 +213,7 @@ background-color: #e4c6e6;
 .tool-wrapper p {
   text-transform: uppercase;
   font-size: 1.125rem;
-  color: #FB3FBC;
+  color: #0c0b0c;
 }
 
 a {
@@ -263,7 +265,7 @@ a {
 
     .language-wrapper p,
     .tool-wrapper p {
-background-color: #e4c6e6;
+background-color:#FFE8D6;
       padding: 15px 0;
       margin: 20px 0;
     }
@@ -277,6 +279,7 @@ background-color: #e4c6e6;
       
         img {
            width: 100%;
+          
           }
         
 audio,
@@ -366,7 +369,9 @@ footer .social-icons li i {
   line-height: 1;
 }
 footer i:hover{
-  background:purple;
+  background:rgb(245, 239, 245);
+  padding: 0 10px 0 10px;
+    border-radius: 10px;
 }
 
 
@@ -386,10 +391,17 @@ footer i:hover{
    text-transform: uppercase;
    
 }
+
 nav{
   margin:0 0 80px 0;
+  
 }
-
+#work, #skills{
+  width: 100%;
+}
+article{
+display: block;
+}
 
  header nav ul li {
 font-size: 1rem;
@@ -414,6 +426,7 @@ max-width: 85%;
 #work {
   padding-top: 100px;
 }
+
  .language-wrapper .tool-wrapper{
    display:flex;
    justify-content: space-evenly;
@@ -437,9 +450,11 @@ h4 {
   padding-top: 80px;
   padding-bottom: 80px;
 }
+
 #about {
   padding: 80px 0;
 }
+
 .portfolio-header {
   margin: 0 0 60px 0;
 }
