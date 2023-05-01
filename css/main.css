@@ -198,6 +198,7 @@ figure {
 
 #about{
   width: 100%;
+  padding-bottom: 20px;
 }
 
 p {
@@ -407,6 +408,9 @@ footer i:hover{
   padding: 0 10px 0 10px;
     border-radius: 10px;
 }
+#about-text{
+  padding-bottom: 20px;
+}
 
 
 
@@ -491,6 +495,7 @@ h4 {
 
 #about {
   padding: 80px 0;
+  
 }
 
 .portfolio-header {
@@ -522,6 +527,7 @@ h4 {
 }
 .about-text{
   align-items:normal;
+
 }
 footer {
   padding-bottom: 80px;
