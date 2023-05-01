@@ -35,6 +35,11 @@ padding: 20px 0;
 nav ul {
   display:flex;
   justify-content: space-between;
+
+}
+nav ul li a{
+  padding: 10px 0 10px 0;
+  
 }
 nav  a:hover{ 
   background:rgb(243, 241, 243);
@@ -177,6 +182,14 @@ h6 {
   line-height: 1.5;
   width: 100%;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
 
 figure {
   margin: 20px 0 40px 0;
@@ -220,7 +233,26 @@ background-color: #EFAC83;
   font-size: 1.125rem;
   color: #0c0b0c;
 }
-
+.language-wrapper p,
+.tool-wrapper p,
+.language-wrapper,
+.tool-wrapper {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-flow: row wrap;
+}
+     .language-wrapper p,
+     .tool-wrapper p {
+       background-color: #FFE8D6;
+       padding: 15px 0;
+       margin: 20px 0;
+  
+     }
+     .skill, .tool{
+      width: 100%;
+  
+     }
 a {
   color: #0e0b0d;
   text-decoration: none;
@@ -232,8 +264,8 @@ a {
 }
 .content-wrapper {
   width: 85%;
-  
 }
+
 .home-portfolio-piece{
     width: 100%;
       display: flex;
@@ -268,23 +300,18 @@ a {
    flex-flow: row wrap;
  }
 
-    .language-wrapper p,
-    .tool-wrapper p {
-background-color:#FFE8D6;
-      padding: 15px 0;
-      margin: 20px 0;
-    }
+ 
         #profile-picture {
-          width: 90%;
+          width: 75%;
               border-top-left-radius: 50% 50%;
               border-top-right-radius: 50% 50%;
               border-bottom-right-radius: 50% 50%;
               border-bottom-left-radius: 50% 50%;
+             
             }
       
         img {
            width: 100%;
-          object-fit: contain;
           }
         
 audio,
@@ -323,11 +350,12 @@ footer .follow-section {
 footer{
   padding: 80px 0;
 }
+
 footer .contact-wrapper {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
- 
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
 }
 footer .contact-info {
   width: 60%;
@@ -407,7 +435,6 @@ nav{
 #skills {
   padding-top: 80px;
   padding-bottom: 80px;
-
 }
 article{
 display: block;
@@ -438,15 +465,20 @@ max-width: 85%;
 }
 
  .language-wrapper .tool-wrapper{
-   display:flex;
-   justify-content: space-evenly;
-   width:100%;
-   flex-flow: row wrap;
    text-transform: uppercase;
+   text-align: center;
  }
+
  .language-wrapper p,
- .tool-wrapper {
+ .tool-wrapper p{
    padding: 15px 0;
+  width: 30%;
+  display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+ }
+ .tool{
+  width: 100%;
  }
  p {
    font-size: 1.25rem;
@@ -455,8 +487,6 @@ max-width: 85%;
 h4 {
   font-size: 1.25rem;
 }
-
-
 
 #about {
   padding: 80px 0;
@@ -508,6 +538,7 @@ h3 {
 footer .contact-info {
   width: 33%;
 }
+
 .contact-info {
   margin: 80px 0;
 }
@@ -532,9 +563,9 @@ footer .social-icons li i {
   font-size: 2rem;
 }
 .project-description {
-      
       width: 95%;
 }
-  }
+
+}
   
 
