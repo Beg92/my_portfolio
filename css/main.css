@@ -1,55 +1,43 @@
  body {
-            font-size: 1em;
-              font-family: 'Open Sans', sans-serif;
-              color: #453E4F;
-              background-color:#EFAC83;
-              margin:0;
-              padding: 10px;
- }
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  color: #453E4F;
+  background-color:#EFAC83;
+  margin:0;
+  padding: 10px;
+}
 html {
   line-height: 1.15;
-  
-  
-    
 }
 body{
   margin: 0;
 }
-
 header{
-    display: flex;
-      justify-content: center;
-      text-align: center;
-      flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
 }
-
-
 #work{
   background-color: #FFE8D6;
 }
 header nav {
-padding: 20px 0;
+  padding: 20px 0;
   width: 100%;
 }
-
 nav ul {
   display:flex;
   justify-content: space-between;
-
 }
 nav ul li a{
   padding: 10px 0 10px 0;
-  
 }
 nav  a:hover{ 
   background:rgb(243, 241, 243);
   padding: 10px 0 10px 0;
   border-radius: 10px;
-  
 }
-
 ul {
- 
   margin-block-start: 1em;
   margin-block-end: 1em;
   margin-inline-start: 0px;
@@ -62,24 +50,22 @@ ul, ol{
   padding: 0;
 }
 header nav ul li {
-
   margin-bottom: 20px;
   font-weight: bold;
   text-transform: uppercase;
 }
  header h1 {
-   width: 100%;
+  width: 100%;
  }
- 
   h1 {
-      display: block;
-        font-size: 2em;
-        margin-block-start: 0.67em;
-        margin-block-end: 0.67em;
-        margin-inline-start: 0px;
-        margin-inline-end: 0px;
-        font-weight: bold;
-    }
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  }
  h1,
  h2,
  h3,
@@ -88,7 +74,6 @@ header nav ul li {
  h6 {
    margin: 0;
  }
-
  h1 {
    color: #453E4F;
    font-family: 'Alike', serif;
@@ -97,13 +82,12 @@ header nav ul li {
    width: 100%;
  }
  header h2 {
-   width: 100%;
-   padding-bottom: 20px;
+  width: 100%;
+  padding-bottom: 20px;
  }
 h2 {
   margin-top: 60px;
 }
-
 h2 {
   color: #453E4F;
   font-family: 'Alike', serif;
@@ -112,7 +96,6 @@ h2 {
   width: 100%;
   font-weight: 400;
 }
-
 h2 {
   display: block;
   font-size: 1.5em;
@@ -128,14 +111,12 @@ h3 {
 h4 {
   margin: 0 0 40px 0;
 }
-
 #portfolio{
   padding-top: 1em;
 }
 #portfolio-header{
   padding-top: 1em;
 }
-
 #work{
   width: 100%;
 }
@@ -169,12 +150,9 @@ width: 100%;
 #skills{
   background-color:#EFAC83;
 }
-
-
  #about{
   background-color: #FFE8D6;
  }
-
 h3,
 h4,
 h5,
@@ -191,26 +169,20 @@ h5,
 h6 {
   margin: 0;
 }
-
 figure {
   margin: 20px 0 40px 0;
 }
-
 #about{
   width: 100%;
   padding-bottom: 20px;
 }
-
 p {
   margin: 0;
 }
-
 p,
 li {
-  
   line-height: 1.5;
 }
-
 span {
   font-weight: bold;
 }
@@ -218,16 +190,14 @@ div{
   display: block;
 }
 .project-link {
-background-color: #EFAC83;
+  background-color: #EFAC83;
   padding: 0.75rem 3.75rem;
   border-radius: 30px;
   border: 1px solid;
 }
-
 .project-link {
   margin: 30px 0 45px 0;
 }
-
 .project-link,
 .language-wrapper p,
 .tool-wrapper p {
@@ -244,38 +214,31 @@ background-color: #EFAC83;
   text-align: center;
   flex-flow: row wrap;
 }
-     .language-wrapper p,
-     .tool-wrapper p {
-       background-color: #FFE8D6;
-       padding: 15px 0;
-       margin: 20px 0;
-  
-     }
-     .skill, .tool{
-      width: 100%;
-  
-     }
+.language-wrapper p,
+.tool-wrapper p {
+  background-color: #FFE8D6;
+  padding: 15px 0;
+  margin:20px 0;
+}
+.skill, .tool{
+ width: 100%;
+}
 a {
   color: #0e0b0d;
   text-decoration: none;
 }
-
-
 .project-description {
  margin-bottom: 20px;
 }
 .content-wrapper {
   width: 85%;
 }
-
 .home-portfolio-piece{
-    width: 100%;
-      display: flex;
-      justify-content: center;
-      flex-direction: column;
-      align-items: center;
-   
-  
+    width:30%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
 }
 .home-portfolio-piece figure {
   width: 100%;
@@ -290,32 +253,26 @@ a {
 .home-portfolio-piece h4 {
   font-weight: bold;
 }
- 
  header,
  #work,
  #skills,
  #about,
  footer {
-   display: flex;
-   justify-content: center;
-   text-align: center;
-   flex-flow: row wrap;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-flow: row wrap;
  }
-
- 
-        #profile-picture {
-          width: 75%;
-              border-top-left-radius: 50% 50%;
-              border-top-right-radius: 50% 50%;
-              border-bottom-right-radius: 50% 50%;
-              border-bottom-left-radius: 50% 50%;
-             
-            }
-      
-        img {
-           width: 100%;
-          }
-        
+#profile-picture {
+  width: 75%;
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+ img {
+ width: 100%;
+ }  
 audio,
 canvas,
 iframe,
@@ -344,6 +301,13 @@ video {
 .contact-title {
   font-weight: 400;
 }
+.about-content-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  align-items: center;
+
+}
 footer .follow-section {
   display: flex;
   flex-flow: row wrap;
@@ -352,12 +316,11 @@ footer .follow-section {
 footer{
   padding: 80px 0;
 }
-
 footer .contact-wrapper {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    align-items: flex-start;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: flex-start;
 }
 footer .contact-info {
   width: 60%;
@@ -389,7 +352,6 @@ footer .social-icons li i {
 .fab {
   font-family: "Font Awesome 5 Brands";
 }
-
 .fa,
 .fab,
 .fal,
@@ -406,7 +368,7 @@ footer .social-icons li i {
 footer i:hover{
   background:rgb(245, 239, 245);
   padding: 0 10px 0 10px;
-    border-radius: 10px;
+  border-radius: 10px;
 }
 #about-text{
   padding-bottom: 20px;
@@ -418,43 +380,37 @@ footer i:hover{
 
  @media only screen and (min-width: 768px)
   {
-    header {
-  padding-top: 60px;
-  padding-bottom: 80px;
-   }
-   nav ul li a{
-   display: flex;
-   justify-content: flex-end;
-   width:100%;
-   text-transform: uppercase;
-   
+ header {
+ padding-top: 60px;
+ padding-bottom: 80px;
+ }
+ nav ul li a{
+ display: flex;
+ justify-content: flex-end;
+ width:100%;
+ text-transform: uppercase;
 }
-
 nav{
-  margin:0 0 80px 0;
-  
+ margin:0 0 80px 0;
 }
 #skills{
-  width: 100%;
+ width: 100%;
 }
 #skills {
-  padding-top: 80px;
-  padding-bottom: 80px;
+ padding-top: 80px;
+ padding-bottom: 80px;
 }
 article{
-display: block;
+ display: block;
 }
-
  header nav ul li {
-font-size: 1rem;
+ font-size: 1rem;
 }
-
  .home-title {
-display: flex;
-flex-flow: row wrap;
-justify-content: center;
+ display: flex;
+ flex-flow: row wrap;
+ justify-content: center;
  }
-
 h1 {
  font-size: 2.5rem;
  }
@@ -462,25 +418,22 @@ h1 {
  max-width: 80%;
  }
  .content-wrapper {
-max-width: 85%;
-
+ max-width: 85%;
  }
 #work {
-  padding-top: 100px;
+ padding-top: 100px;
 }
-
  .language-wrapper .tool-wrapper{
-   text-transform: uppercase;
-   text-align: center;
+  text-transform: uppercase;
+  text-align: center;
  }
-
  .language-wrapper p,
  .tool-wrapper p{
    padding: 15px 0;
   width: 30%;
   display: flex;
-    justify-content: center;
-    flex-flow: row wrap;
+  justify-content: center;
+  flex-flow: row wrap;
  }
  .tool{
   width: 100%;
@@ -488,46 +441,39 @@ max-width: 85%;
  p {
    font-size: 1.25rem;
  }
-
 h4 {
   font-size: 1.25rem;
 }
-
 #about {
   padding: 80px 0;
-  
 }
-
 .portfolio-header {
   margin: 0 0 60px 0;
 }
 .portfolio-wrapper {
-    justify-content: space-around;
-      
+  justify-content: space-around;    
 }
 .home-portfolio-piece {
-        width: 45%;
-          align-items: center;
-      
+ width: 45%;
+ align-items: center;
 }
-
 .about-content-wrapper {
   display: flex;
   justify-content: center;
   flex-flow: row wrap;
+  align-items: center;
 }
 #about figure {
   width: 60%;
 }
 .about-info {
-  width: 58%;
+  width: 40%;
 }
 .about-text {
   margin: 0 0 30px 0;
 }
 .about-text{
   align-items:normal;
-
 }
 footer {
   padding-bottom: 80px;
@@ -545,7 +491,6 @@ h3 {
 footer .contact-info {
   width: 33%;
 }
-
 .contact-info {
   margin: 80px 0;
 }
@@ -564,15 +509,14 @@ footer ul {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  width: 100%;
+   width: 100%;
 }
 footer .social-icons li i {
   font-size: 2rem;
 }
 .project-description {
-      width: 95%;
+  width: 95%;
 }
-
 }
   
 
